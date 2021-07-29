@@ -34,7 +34,6 @@ function AnglesOfTriangle() {
             required
           />
 
-          <br />
           <input
             type="number"
             value={secondAngle}
@@ -45,7 +44,6 @@ function AnglesOfTriangle() {
             required
           />
 
-          <br />
           <input
             type="number"
             value={thirdAngle}

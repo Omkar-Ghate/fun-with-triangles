@@ -1,0 +1,10 @@
+.triangleImg {
+  background: url("https://cdncontribute.geeksforgeeks.org/wp-content/uploads/triangle-7.png");
+  background-position: center;
+  width: 15rem;
+  height: 10rem;
+  background-origin: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem auto;
+}
