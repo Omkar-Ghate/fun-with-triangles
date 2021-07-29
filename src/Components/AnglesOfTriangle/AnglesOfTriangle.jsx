@@ -11,7 +11,8 @@ function AnglesOfTriangle() {
     else if (item === "secondAngle") setSecondAngle(event.target.value);
     else if (item === "thirdAngle") setThirdAngle(event.target.value);
   }
-  function handleClick() {
+  function handleClick(event) {
+    event.preventDefault();
     setSum(Number(firstAngle) + Number(secondAngle) + Number(thirdAngle));
   }
 
@@ -21,36 +22,45 @@ function AnglesOfTriangle() {
         Enter the angles in below input boxes and we will tell you <br />
         if those angles make a Triangle
       </h2>
-      <form className="form" action="">
-        <input
-          type="number"
-          value={firstAngle}
-          onChange={handleChange}
-          name="firstAngle"
-          required
-        />
+      <form className="form" action="" onSubmit={handleClick}>
+        <div className="formInput">
+          <input
+            type="number"
+            value={firstAngle}
+            onChange={handleChange}
+            name="firstAngle"
+            min="1"
+            max="180"
+            required
+          />
 
-        <br />
-        <input
-          type="number"
-          value={secondAngle}
-          onChange={handleChange}
-          name="secondAngle"
-          required
-        />
+          <br />
+          <input
+            type="number"
+            value={secondAngle}
+            onChange={handleChange}
+            name="secondAngle"
+            min="1"
+            max="180"
+            required
+          />
 
-        <br />
-        <input
-          type="number"
-          value={thirdAngle}
-          onChange={handleChange}
-          name="thirdAngle"
-          required
-        />
+          <br />
+          <input
+            type="number"
+            value={thirdAngle}
+            onChange={handleChange}
+            name="thirdAngle"
+            min="1"
+            max="180"
+            required
+          />
+        </div>
+        <button type="submit" className="submitBtn">
+          Submit
+        </button>
       </form>
-      <button className="submitBtn" onClick={handleClick}>
-        Submit
-      </button>
+
       {/* <h2>
         {firstAngle} {secondAngle} {thirdAngle}
       </h2>
