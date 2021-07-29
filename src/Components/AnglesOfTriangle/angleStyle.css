@@ -43,9 +43,20 @@ input:hover {
   padding: 0.1rem 0.3rem;
   width: fit-content;
   border: 1px solid red;
-  height: 2rem;
+  height: fit-content;
   border: 1px solid transparent;
   border-radius: 0.3rem;
   background-color: #1289a7;
   color: #ffc312;
+}
+@media (max-width: 280px) {
+  .displayTabsBtn {
+    flex-direction: column;
+  }
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
