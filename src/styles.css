@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+html {
+  background: url(https://images.pexels.com/photos/1029624/pexels-photo-1029624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: center;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.displayTabsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.tabsBtn {
+  font-size: 1.1rem;
+  padding: 0.1rem 0.3rem;
+  margin: 0.5rem;
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background: white;
+  transition: 0.5s;
+}
+.tabsBtn:hover {
+  background-color: cyan;
+  color: blue;
+}
+.heading {
+  margin: 1.5rem;
+}

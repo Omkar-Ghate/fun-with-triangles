@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 1rem;
+  width: 6rem;
+  height: 3rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+
+input:hover {
+  background-color: red;
+}
+
+.submitBtn {
+  width: 5rem;
+  height: 2.2rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background: white;
+  transition: 0.5s;
+}
+.submitBtn:hover {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.output {
+  margin: 1.5rem auto;
+  padding: 0.1rem 0.3rem;
+  width: 30rem;
+  border: 1px solid red;
+  height: 2rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background-color: #1289a7;
+  color: #ffc312;
+}
