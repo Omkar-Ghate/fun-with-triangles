@@ -6,16 +6,19 @@
 }
 
 input {
+  font-size: 1.1rem;
   margin: 1rem;
   width: 6rem;
   height: 3rem;
   border: 1px solid transparent;
   border-radius: 0.3rem;
+  background-color: rgb(35, 211, 255, 0.6);
+  color: rgb(39, 59, 121);
   transition: 0.3s;
 }
 
 input:hover {
-  background-color: red;
+  background-color: rgb(35, 211, 255, 0.9);
 }
 
 .submitBtn {
@@ -34,7 +37,7 @@ input:hover {
 .output {
   margin: 1.5rem auto;
   padding: 0.1rem 0.3rem;
-  width: 30rem;
+  width: fit-content;
   border: 1px solid red;
   height: 2rem;
   border: 1px solid transparent;

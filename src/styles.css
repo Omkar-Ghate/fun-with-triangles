@@ -31,12 +31,13 @@ html {
   height: 3rem;
   border: 1px solid transparent;
   border-radius: 0.3rem;
-  background: white;
+  background: rgb(132, 104, 255, 0.7);
   transition: 0.5s;
 }
 .tabsBtn:hover {
-  background-color: cyan;
-  color: blue;
+  background-color: rgb(132, 104, 255, 0.9);
+  color: whitesmoke;
+  transform: scale(1.1);
 }
 .heading {
   margin: 1.5rem;
