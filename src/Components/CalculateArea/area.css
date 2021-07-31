@@ -1,0 +1,22 @@
+.optionsDiv {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.subMenuBtn {
+  font-size: 1.1rem;
+  padding: 0.1rem 0.3rem;
+  margin: 0.5rem;
+  width: 10rem;
+  height: 3rem;
+  border: 0.15rem solid rgba(206, 66, 206, 0.7);
+  border-radius: 0.3rem;
+  background: transparent;
+  transition: 0.5s;
+}
+
+.subMenuBtn:hover {
+  background-color: rgba(206, 66, 206, 0.8);
+}

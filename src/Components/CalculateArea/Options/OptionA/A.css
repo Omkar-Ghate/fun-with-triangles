@@ -1,0 +1,10 @@
+.triangleImgA {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Simple_triangle_with_height_marked.svg/1024px-Simple_triangle_with_height_marked.svg.png);
+  background-position: center;
+  width: 18rem;
+  height: 10rem;
+  background-origin: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1rem auto;
+}

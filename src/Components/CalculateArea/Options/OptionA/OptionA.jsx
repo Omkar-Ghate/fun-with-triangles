@@ -1,9 +1,9 @@
-import "./hypo.css";
+import "./A.css";
 import { useState } from "react";
-function CheckHypo() {
+function OptionA() {
   var [base, setBase] = useState(0);
   var [height, setHeight] = useState(0);
-  var [hypo, setHypo] = useState(0);
+  var [area, setArea] = useState(0);
 
   function handleChange(event) {
     var type = event.target.name;
@@ -13,13 +13,13 @@ function CheckHypo() {
 
   function handleClick(event) {
     event.preventDefault();
-    setHypo(Math.sqrt(Math.pow(Number(base), 2) + Math.pow(Number(height), 2)));
+    setArea(0.5 * base * height);
   }
 
   return (
     <div>
       <h2>Enter the length of sides of a right angled triangle</h2>
-      <div className="triangleImg"></div>
+      <div className="triangleImgA"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">
           <label htmlFor="number">Base</label>
@@ -49,14 +49,14 @@ function CheckHypo() {
         </button>
       </form>
       <div className="output">
-        {hypo === 0 ? (
-          <h2>The lenght of hypotenuse will appear here</h2>
+        {area === 0 ? (
+          <h2>The area of the triangle will appear here</h2>
         ) : (
-          <h2>Hypotenuse = {Math.round(hypo * 100000) / 100000}</h2>
+          <h2>Area = {Math.round(area * 100000) / 100000}</h2>
         )}
       </div>
     </div>
   );
 }
 
-export default CheckHypo;
+export default OptionA;
