@@ -22,7 +22,7 @@ function CheckHypo() {
       <div className="triangleImg"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">
-          <label htmlFor="number">Base</label>
+          <label htmlFor="number">Base(b)</label>
           <input
             type="number"
             value={base}
@@ -33,7 +33,7 @@ function CheckHypo() {
             required
           />
 
-          <label htmlFor="number">Height</label>
+          <label htmlFor="number">Height(a)</label>
           <input
             type="number"
             value={height}
@@ -52,7 +52,7 @@ function CheckHypo() {
         {hypo === 0 ? (
           <h2>The lenght of hypotenuse will appear here</h2>
         ) : (
-          <h2>Hypotenuse = {Math.round(hypo * 100000) / 100000}</h2>
+          <h2>Hypotenuse(h) = {Math.round(hypo * 100000) / 100000}</h2>
         )}
       </div>
     </div>
