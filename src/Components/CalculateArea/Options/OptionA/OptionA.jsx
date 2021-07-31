@@ -18,11 +18,11 @@ function OptionA() {
 
   return (
     <div>
-      <h2>Enter the length of sides of a right angled triangle</h2>
+      <h2>Enter the length of base and height of right angled triangle</h2>
       <div className="triangleImgA"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">
-          <label htmlFor="number">Base</label>
+          <label htmlFor="number">Base(b)=</label>
           <input
             type="number"
             value={base}
@@ -33,7 +33,7 @@ function OptionA() {
             required
           />
 
-          <label htmlFor="number">Height</label>
+          <label htmlFor="number">Height(h)=</label>
           <input
             type="number"
             value={height}
