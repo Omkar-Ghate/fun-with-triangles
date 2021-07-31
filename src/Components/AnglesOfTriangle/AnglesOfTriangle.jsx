@@ -59,11 +59,6 @@ function AnglesOfTriangle() {
         </button>
       </form>
 
-      {/* <h2>
-        {firstAngle} {secondAngle} {thirdAngle}
-      </h2>
-      <br />
-      <h3>{sum}</h3> */}
       <div className="output">
         {sum === 0 ? (
           <h2>Please enter all angles</h2>

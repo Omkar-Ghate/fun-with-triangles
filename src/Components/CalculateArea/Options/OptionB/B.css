@@ -1,0 +1,10 @@
+.triangleImgB {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/1200px-Rtriangle.svg.png);
+  background-position: center;
+  width: 10rem;
+  height: 8rem;
+  background-origin: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
