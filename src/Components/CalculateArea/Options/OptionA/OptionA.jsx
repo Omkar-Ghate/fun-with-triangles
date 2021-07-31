@@ -1,9 +1,9 @@
 import "./A.css";
 import { useState } from "react";
 function OptionA() {
-  var [base, setBase] = useState(0);
-  var [height, setHeight] = useState(0);
-  var [area, setArea] = useState(0);
+  var [base, setBase] = useState("");
+  var [height, setHeight] = useState("");
+  var [area, setArea] = useState("");
 
   function handleChange(event) {
     var type = event.target.name;
@@ -13,7 +13,7 @@ function OptionA() {
 
   function handleClick(event) {
     event.preventDefault();
-    setArea(0.5 * base * height);
+    setArea(0.5 * Number(base) * Number(height));
   }
 
   return (
@@ -52,7 +52,7 @@ function OptionA() {
         {area === 0 ? (
           <h2>The area of the triangle will appear here</h2>
         ) : (
-          <h2>Area = {Math.round(area * 100000) / 100000}</h2>
+          <h2>Area = {Math.round(area * 10000000000) / 10000000000}</h2>
         )}
       </div>
     </div>

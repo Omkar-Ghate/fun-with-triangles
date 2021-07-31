@@ -30,7 +30,7 @@ function CalculateArea() {
               ? "Base & Height"
               : option === "optionB"
               ? "3 Sides"
-              : "2 Sides & included Angle"}
+              : "2 Sides & 1 Angle"}
           </button>
         ))}
       </div>

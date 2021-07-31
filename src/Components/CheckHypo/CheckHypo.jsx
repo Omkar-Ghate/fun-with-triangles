@@ -1,9 +1,9 @@
 import "./hypo.css";
 import { useState } from "react";
 function CheckHypo() {
-  var [base, setBase] = useState(0);
-  var [height, setHeight] = useState(0);
-  var [hypo, setHypo] = useState(0);
+  var [base, setBase] = useState("");
+  var [height, setHeight] = useState("");
+  var [hypo, setHypo] = useState("");
 
   function handleChange(event) {
     var type = event.target.name;
@@ -50,7 +50,7 @@ function CheckHypo() {
       </form>
       <div className="output">
         {hypo === 0 ? (
-          <h2>The lenght of hypotenuse will appear here</h2>
+          <h2>The length of hypotenuse will appear here</h2>
         ) : (
           <h2>Hypotenuse(h) = {Math.round(hypo * 100000) / 100000}</h2>
         )}
