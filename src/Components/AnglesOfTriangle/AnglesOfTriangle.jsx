@@ -22,8 +22,10 @@ function AnglesOfTriangle() {
         Enter the angles in below input boxes and we will tell you <br />
         if those angles make a Triangle
       </h2>
+      <div className="angleImg"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">
+          <label htmlFor="number">x =</label>
           <input
             type="number"
             value={firstAngle}
@@ -33,7 +35,7 @@ function AnglesOfTriangle() {
             max="180"
             required
           />
-
+          <label htmlFor="number">y =</label>
           <input
             type="number"
             value={secondAngle}
@@ -43,7 +45,7 @@ function AnglesOfTriangle() {
             max="180"
             required
           />
-
+          <label htmlFor="number">z =</label>
           <input
             type="number"
             value={thirdAngle}
