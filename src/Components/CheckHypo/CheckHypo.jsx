@@ -22,7 +22,7 @@ function CheckHypo() {
       <div className="triangleImg"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">
-          <label htmlFor="number">Base(b)</label>
+          <label htmlFor="number">Base(b) = </label>
           <input
             type="number"
             value={base}
@@ -33,7 +33,7 @@ function CheckHypo() {
             required
           />
 
-          <label htmlFor="number">Height(a)</label>
+          <label htmlFor="number">Height(a) = </label>
           <input
             type="number"
             value={height}
