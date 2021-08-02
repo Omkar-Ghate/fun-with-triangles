@@ -27,16 +27,16 @@ function TriangleQuiz() {
       questionText:
         "If a triangle has angles 25°, 75°, 80°. Is it an acute triangle?",
       answerOptions: [
-        { answerText: "Yes", isCorrect: false },
-        { answerText: "No", isCorrect: true }
+        { answerText: "Yes", isCorrect: true },
+        { answerText: "No", isCorrect: false }
       ]
     },
     {
       questionText:
         "If a triangle has angles 115°, 25°, 40°. Is it an obtuse triangle?",
       answerOptions: [
-        { answerText: "No", isCorrect: true },
-        { answerText: "Yes", isCorrect: false }
+        { answerText: "No", isCorrect: false },
+        { answerText: "Yes", isCorrect: true }
       ]
     },
     {
