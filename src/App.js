@@ -39,6 +39,7 @@ export default function App() {
             <div>{genre.component}</div>
           ))}
         </div>
+        <div className="space"> This is intentional</div>
         <Footer />
       </div>
     </div>

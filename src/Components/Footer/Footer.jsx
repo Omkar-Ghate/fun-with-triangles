@@ -2,7 +2,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer>
+      <footer className="footer">
         <div class="heading-footer">Get in touch with me</div>
         <ul>
           <li>

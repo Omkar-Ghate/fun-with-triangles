@@ -47,6 +47,10 @@ html {
   font-size: 1.2rem;
   color: #341f97;
 }
+.space {
+  margin: 2.5rem auto;
+  visibility: hidden;
+}
 
 @media (max-width: 460px) {
   .displayTabsBtn {
