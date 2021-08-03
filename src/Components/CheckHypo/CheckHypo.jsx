@@ -18,7 +18,9 @@ function CheckHypo() {
 
   return (
     <div>
-      <h2>Enter the length of sides of a right angled triangle</h2>
+      <h2 className="subHeading">
+        Enter the length of sides of a right angled triangle
+      </h2>
       <div className="triangleImg"></div>
       <form className="form" action="" onSubmit={handleClick}>
         <div className="formInput">

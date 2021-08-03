@@ -18,7 +18,7 @@ function AnglesOfTriangle() {
 
   return (
     <div>
-      <h2>
+      <h2 className="subHeading">
         Enter the angles in below input boxes and we will tell you <br />
         if those angles make a Triangle
       </h2>

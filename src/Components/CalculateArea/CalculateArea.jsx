@@ -19,7 +19,9 @@ function CalculateArea() {
 
   return (
     <div>
-      <h2>Select the options as per the data you of a triangle</h2>
+      <h2 className="subHeading">
+        Select the options as per the data you of a triangle
+      </h2>
       <div className="optionsDiv">
         {Object.keys(setOfOptions).map((option) => (
           <button

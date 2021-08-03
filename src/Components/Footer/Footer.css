@@ -1,18 +1,17 @@
 .footer {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   text-align: center;
   position: fixed;
   width: 100%;
   bottom: 0;
   margin: auto;
   margin-top: 3rem;
+  z-index: -1;
 }
 
 .heading-footer {
   font-size: 1.3rem;
+  font-family: "Varela Round", sans-serif;
+  color: blue;
 }
 .footer ul {
   display: flex;

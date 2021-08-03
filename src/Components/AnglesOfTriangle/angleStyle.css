@@ -1,3 +1,8 @@
+.subHeading {
+  font-family: "Varela Round", sans-serif;
+  color: #10ac84;
+}
+
 .angleImg {
   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Simple_triangle_with_angles_marked_01.svg/1280px-Simple_triangle_with_angles_marked_01.svg.png");
   background-position: center;
