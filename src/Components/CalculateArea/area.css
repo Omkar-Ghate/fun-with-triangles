@@ -20,3 +20,9 @@
 .subMenuBtn:hover {
   background-color: rgba(206, 66, 206, 0.8);
 }
+
+@media (max-width: 460px) {
+  .optionsDiv {
+    flex-direction: column;
+  }
+}
