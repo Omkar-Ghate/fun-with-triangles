@@ -20,6 +20,11 @@ function Footer() {
               <i class="fas fa-briefcase"></i>
             </a>
           </li>
+          <li>
+            <a href="https://twitter.com/OmkarGhate9" target="blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
         </ul>
       </footer>
     </div>
